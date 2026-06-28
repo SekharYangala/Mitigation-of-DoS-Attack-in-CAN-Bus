@@ -1,4 +1,4 @@
-# s3.py
+# compute_reference_values.py
 # Step 3: Calculate Reference Values of Normality
 # For each window size (100, 500, 1000)
 # Calculate:
@@ -14,7 +14,7 @@ import numpy as np
 
 # -----------------------------------
 # Load reference feature dataset
-# created from s2.py
+# created from extract_reference_features.py
 # -----------------------------------
 file_path = "reference_features.csv"
 

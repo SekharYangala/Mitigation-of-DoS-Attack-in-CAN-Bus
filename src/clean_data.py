@@ -1,4 +1,4 @@
-# s1.py
+# clean_data.py
 # Step 1: Data Loading + Basic Preprocessing
 # Using only first 300,0000 rows
 # Keeping only CAN_ID and last column (Flag: R/T)
@@ -29,7 +29,7 @@ columns = [
 ]
 
 # -----------------------------------
-# Load first 100,000 rows only
+# Load first 3,500,000 rows only
 # -----------------------------------
 df = pd.read_csv(
     file_path,

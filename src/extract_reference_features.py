@@ -1,4 +1,4 @@
-# s2.py
+# extract_reference_features.py
 # Step 2: Reference Feature Extraction
 # Using only NORMAL rows (Flag = R)
 # Window sizes: 50,100, 500, 1000
@@ -12,7 +12,7 @@ import numpy as np
 from collections import Counter
 
 # -----------------------------------
-# Load processed dataset from s1.py
+# Load processed dataset from clean_data.py
 # -----------------------------------
 file_path = "processed_can_data.csv"
 
