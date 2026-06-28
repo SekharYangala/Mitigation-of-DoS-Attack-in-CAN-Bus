@@ -1,6 +1,5 @@
 # clean_data.py
 # Step 1: Data Loading + Basic Preprocessing
-# Using only first 300,0000 rows
 # Keeping only CAN_ID and last column (Flag: R/T)
 
 import pandas as pd
